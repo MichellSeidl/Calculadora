@@ -4,7 +4,7 @@ Case para Engenharia de Software JR
 Você precisa corrigir os seguintes problemas no codigo:
   1. Aplicação só está processando o primeiro item da fila infinitamente.
   
-  R: Identificado que não era retirado o elemento da fila e o laço de repetição estava maior e igual a 0. Caso passase o programa pararia a execução devido a tentaativa de acessar o elemento não existente na fila
+  R: Foi identificado que o elemento não estava sendo retirado da fila e que o laço de repetição continha '>= 0'. Se isso ocorresse, o programa pararia a execução devido à tentativa de acessar um elemento inexistente na fila.
      
   2. Implemente a funcionalidade de divisão.
      R: Funcionalidade implementada na classe Calculadora
